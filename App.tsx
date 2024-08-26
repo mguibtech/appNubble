@@ -8,6 +8,12 @@ function App(): React.JSX.Element {
       <Text preset="paragraphCaption" style={{color: 'red'}}>
         Testando novo componente
       </Text>
+      <Text preset="headingLarge" style={{fontFamily: 'Panchang-Light'}}>
+        Testando novo componente
+      </Text>
+      <Text preset="headingLarge" style={{fontFamily: 'Panchang-Extralight'}}>
+        Testando novo componente
+      </Text>
     </SafeAreaView>
   );
 }
