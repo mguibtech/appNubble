@@ -55,6 +55,13 @@ export const theme = createTheme({
     s12: 12,
     s16: 16,
   },
+
+  textVariants: {
+    defaults: {
+      // We can define a default text variant here.
+    },
+  },
 });
 
 export type Theme = typeof theme;
+export type ThemeColors = keyof Theme['colors'];
