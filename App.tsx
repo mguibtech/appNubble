@@ -8,9 +8,8 @@ function App(): React.JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <SafeAreaView>
-        <Button title="Teste" mb="s10" preset="primary" />
-        <Button title="Teste" preset="outline" />
-        <Button title="Teste" preset="secondary" />
+        <Button title="Teste" mb="s10" preset="primary" disabled />
+        <Button title="Teste" preset="outline" loading />
       </SafeAreaView>
     </ThemeProvider>
   );
